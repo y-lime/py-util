@@ -1,0 +1,10 @@
+english
+Async context manager '%s' doesn't implement __aenter__ and __aexit__. Used when an async context manager is used with an object that does not implement the async context management protocol. This message can't be emitted when using Python < 3.5.
+Yield inside async function Used when an yield or yield from statement is found inside an async function. This message can't be emitted when using Python < 3.5.
+%r not properly in loop Used when break or continue keywords are used outside a loop.
+%s already defined line %s Used when a function / class / method is redefined.
+"'continue' not supported inside 'finally' clause Emitted when the continue keyword is found inside a finally clause, which is a SyntaxError. This message can't be emitted when using Python >= 3.8."
+Abstract class %r with abstract methods instantiated Used when an abstract class with abc.ABCMeta as metaclass has abstract methods and is instantiated.
+Can use starred expression only in assignment target Emitted when a star expression is not used in an assignment target.
+Duplicate argument name %s in function definition Duplicate argument names in function definitions are syntax errors.
+Explicit return in __init__ Used when the special class method __init__ has an explicit return value.
